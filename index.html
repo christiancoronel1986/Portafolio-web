@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script async src="https://whatsform.com/launcher.js" id="wf-widget" data-id="5NNSaC" data-message="Mensaje en WhatsApp" ></script>
+</head>
+<body>
+    <!--Menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Christian Coronel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRÍCULUM</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Sin título-1.png" alt="">
+            </div>
+            <h1>CHRISTIAN CORONEL</h1>
+            <h2>Estudiante de Desarrollo Front End  - Estudiante de Ingeniaría en Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/kristian.koronel/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/christian-coronel-b5b670246"><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href="https://github.com/christiancoronel1986"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://wa.me/525626101306"><i class="fa-brands fa-whatsapp"></i></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Christian.</span> Actualmente soy estudiante de Ingeniería en Sistemas Computacionales, tembien soy estudiante de desarrollo web enfocado en el front end. </p>
+            <div class="fila">
+                <!-- datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            03-04-1986
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            56 2610 1306
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            christiancoronel1986@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.-------.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span> 
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>  
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button id="download-cv">
+                Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+            
+           
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Corel Draw</span>
+                            <div class="barra-skill">
+                                <div class="progreso ">
+                                    <span>30%</span>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Soporte Tecnico</span>
+                                <div class="barra-skill">
+                                    <div class="progreso ">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Profesional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso ">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Dedicación</span>
+                                <div class="barra-skill">
+                                    <div class="progreso ">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Currículum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Superior</h4>
+                        <span class="casa">UMOV Universidad en Movimiento</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Estudios Superiores - Ingeniería en Sistemas Computacionales </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Media Superior</h4>
+                        <span class="casa">Colegio de Bachilleres</span>
+                        <span class="fecha">2022</span>
+                        <p>Estudios Medio Superior - Bachillerato General en Informática</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Básica</h4>
+                        <span class="casa">Primaria - secundaria</span>
+                        <span class="fecha">1992 - 2001</span>
+                        <p>Educación Básica Primaria & Secundaria </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>UBER Eats Delivery</h4>
+                        <span class="casa">Uber Technologies, Inc.</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Servicio de entrega a domicilio por medios tecnológicos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>UBER Driver</h4>
+                        <span class="casa">Uber Technologies, Inc.</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <p>Chofer Privado - Transporte de pasajeros por medios tecnológicos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Soporte técnico, Atención a clientes</h4>
+                        <span class="casa">Ikari Games</span>
+                        <span class="fecha">2006 - 2017</span>
+                        <p>Responsable de ventas, inventarios, manejo de personal, atención a clientes y proveedores. Armado y mantenimiento de PC´S , Actualización y carga de Software, Soporte posventa. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <p>Haz Click en la Imagen para acceder al proyecto</p>
+            <div class="galeria">
+                <div id="proyecto1" class="proyecto">
+                    <img src="/img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Práctica Alura Barbería</h3>
+                    </div>
+                </div>
+                <div id="proyecto2" class="proyecto">
+                    <img src="/img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Demo Coca Cola</h3>
+                    </div>
+                </div>
+                <div id="proyecto3" class="proyecto">
+                    <img src="/img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Encriptador de Texto</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                
+                <!--Formulario-->
+               <div class="col">
+                <iframe class="form" src="https://whatsform.com/5NNSaC" frameBorder="0"></iframe>
+                    <!--<input type="text" placeholder="Tú Nombre">
+                    <input type="tel" name="tel" id="tel" placeholder="Número de Telefono">
+                    <input type="email" name="email" id="email" placeholder="Correo Electronico">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>-->
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.995897220608!2d-99.11262922672118!3d19.423249122112917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1feb5a3f4ec55%3A0xb8da6f15ab5dad5!2sCorregidora%20150%2C%20Zona%20Centro%2C%20Venustiano%20Carranza%2C%2015100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1673562409032!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Corregidora, Centro CDMX
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Tel: 56 2610 1306
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: christiancoronel1986@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!--Pie de pagina-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/kristian.koronel/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="www.linkedin.com/in/christian-coronel-b5b670246"><i class="fa-brands fa-linkedin"></i></i></a>
+        <a href="https://github.com/christiancoronel1986"><i class="fa-brands fa-github"></i></i></a>
+        <a href="https://wa.me/525626101306"><i class="fa-brands fa-whatsapp"></i></i></a>
+        <p><i class="fa-regular fa-copyright"></i> Todos los Derechos Reservados 2023.</p>
+    </div>
+</footer>
+<script src="/js/script.js">
+
+</script>
+</html>
